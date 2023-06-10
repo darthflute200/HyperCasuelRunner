@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Coin
+  - Slower
+  - Faster
+  - Taller
+  - Shorter
   layers:
   - Default
   - TransparentFX
