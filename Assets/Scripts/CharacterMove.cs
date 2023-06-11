@@ -43,29 +43,7 @@ public class CharacterMove : MonoBehaviour
     {
         Move();
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Finish"))
-        {
-            speed = 0;
-        }
-        if (other.CompareTag("Slower"))
-        {
-            speed = 1;
-        }
-        if (other.CompareTag("Faster"))
-        {
-            speed = 10;
-        }
-        if (other.CompareTag("Taller"))
-        {
-            transform.localScale = new Vector3(transform.localScale.x, 10f, transform.localScale.z);
-        }
-        if (other.CompareTag("Shorter"))
-        {
-            transform.localScale = new Vector3(transform.localScale.x, -10, transform.localScale.z);
-        }
-    }
+
 
 
 }
